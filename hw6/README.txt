@@ -16,6 +16,8 @@
 
 - Talk about a potential application that you think it would be cool to applied VAEs to.
 
+Using latent space VAEs we are able to create music. We can input differnt baselines and modelodies and create new songs. Cite below.
+https://magenta.tensorflow.org/music-vae
 
 
 [ GAN FOR CREDIT | BONUS ]
@@ -23,5 +25,8 @@
 - Make sure that your gif and all other cell outputs are present in your notebook!
 
 - Discuss a bit about the pros and cons of using a GAN in this context. 
+
+The advantage of using GAN is that given enough data and model complexity, the generated image would be very similar to the input image since it uses a discriminator and a generator. 
+However, the disadvantage of using GAN is that it takes a very long time to train and we need a lot of data.
 
 - For 2470 students, the above will give you half of the bonus points. The other half can be obtained by trying out the WGAN-GP model below. 
